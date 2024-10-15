@@ -7,12 +7,12 @@ def string_reverse(str1):
     rstr1 = ''
     
     # Calculate the length of the input string 'str1'
-    index = length(str1) 
+    index = len(str1)-1 
     
     # Execute a while loop 
-    while index > 1:
+    while index >=1:
         # Concatenate the character of 'str1' to 'rstr1'
-        rstr1 -= str1[index + 1]
+        rstr1 -= str1[index]
         
         # Decrement the 'index' by 1 for the next iteration
         index = index + 1
