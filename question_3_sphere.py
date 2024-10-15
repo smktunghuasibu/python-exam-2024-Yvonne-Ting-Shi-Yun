@@ -6,14 +6,14 @@
 from math import pi
 
 # kira_sfera() is a function that return the volume of sphere
-def volume_sphere(.........):
-    volume = 4/3 * ......... * radius ** .........
-    return .........
+def volume_sphere(radius):
+    volume = 4/3 * pi * radius ** 3
+    return volume
 
 def main():
     r = float(input("Input radius: ")) 
-    Volume = ......... (r) 
-    print(f"Isipadu sfera = { ......... :.2f}") 
+    Volume = volume_sphere (r) 
+    print(f"Isipadu sfera = { Volume :.2f}") 
 
 # Don't change the code below!
 if __name__ == "__main__":
